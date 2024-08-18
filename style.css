@@ -132,7 +132,7 @@ body{
     justify-content: start;
     background-color: #2D2D2D;
     width: 1000px;
-    margin-left: 190px;
+    margin-left: 260px;
     height: 70px;
     margin-top: 10px;
     transition: .3s ease-in-out;
@@ -172,6 +172,7 @@ body{
 }
 .newnav .data{
     margin-top: 50px;
+    margin-left: 40px;
 }
 .newnav .data p{
     font-size: 20px;
@@ -224,18 +225,9 @@ body{
 }
 
 @media screen and (max-width: 850px) {
-    main{
-        width: 300px;
-    }
-    body{
-        width: 300px;
-    }
-    html{
-        width: 300px;
-    }
     
     .firstnav{
-        width: 300px;
+        width: 390px;
         height: 480px;
     }
     .logo{
@@ -244,14 +236,14 @@ body{
     .logo img{
         width: 90px;
         height: 50px;
-        margin-left: -100px;
+        margin-left: -80px;
     }
     .logo .select{
         border: 1px solid white;
         width: 40px;
         height: 20px;
         margin-top: 19px;
-        margin-left: 70px;
+        margin-left: 100px;
         font-size: 12px;
         line-height: 10px;
         font-weight: 500;
@@ -316,7 +308,7 @@ body{
        
     }
     .secnav{
-        width: 300px;
+        width: 390px;
         height: 400px;
         margin-top: 10px;
         background-color: black;
@@ -348,9 +340,9 @@ body{
     .newnav{
         background-color: black;
         height: 900px;
-        width: 300px;
+        width: 390px;
         color: white;
-        margin-top: -20px;
+        margin-top: -10px;
     }
     .newnav h1{
         display: flex;
@@ -367,7 +359,7 @@ body{
         justify-content: start;
         background-color: #2D2D2D;
         width: 250px;
-        margin-left: 10px;
+        margin-left: 70px;
         height: 70px;
         margin-top: 10px;
         transition: .3s ease-in-out;
@@ -441,7 +433,7 @@ body{
         color: white;
         margin-top: 10px;
         height: 300px;
-        width: 300px;
+        width: 390px;
     }
     .contact p{
         font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
